@@ -1,6 +1,0 @@
-h1. leandro.me
-
-Hi everyone, this is the code behind "leandro.me":http://leandro.me, a "Jekyll":http://jekyllrb.com powered blog. Feel free to use the source for your own projects. If you have any questions, I'm "@leandrodotme":http://twitter.com/leandrodotme on Twitter.
-
-Cheers,
--- Leandro
