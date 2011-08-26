@@ -9,7 +9,7 @@ Since 2011, I've been working on "Custómica":http://customica.com, an online t-
 
 In the past, I've worked at the local startup "Livra.com":http://livra.com, an online social shopping community, where I helped build their website and awesome community from the ground up.
 
-You can follow me on "Twitter":http://twitter.com/leandrodotme, browse my open source projects at "GitHub":http://github.com/leandrodotme and see my profile on "LinkedIn":http://www.linkedin.com/pub/leandro-lovisolo/6/101/480. Write me at "hi@leandro.me":mailto:hi@leandro.me.
+You can follow me on "Twitter":http://twitter.com/leandrolovisolo, browse my open source projects at "GitHub":http://github.com/leandrodotme and see my profile on "LinkedIn":http://www.linkedin.com/pub/leandro-lovisolo/6/101/480. Write me at "hi@leandro.me":mailto:hi@leandro.me.
 
 h4. Projects
 
