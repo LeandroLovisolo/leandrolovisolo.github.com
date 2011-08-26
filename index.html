@@ -1,0 +1,21 @@
+---
+layout: default
+title: Leandro Lovisolo
+---
+
+<div class="index">
+	<h4>Blog Posts</h4>
+
+	<ul class="posts">
+		{% for post in site.posts %}
+			<li><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+
+	<h4>Projects</h4>
+
+	<ul>
+		<li><a href="http://leandro.me/Calendator">Calendator</a>: Generate printable calendars right from your browser.</li>
+		<li><a href="https://github.com/leandrodotme/LPTMonitor.NET">LPTMonitor.NET</a>: Parallel port input/output monitor for Windows.</li>
+	</ul>
+</div>
