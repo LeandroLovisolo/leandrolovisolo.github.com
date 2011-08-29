@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Calendator: My Latest App"
+---
+
+!/images/calendator.png(Screenshot)! Check out my newest app: "Calendator":http://leandro.me/Calendator.
+
+Calendator lets you quickly generate printable calendars right from your browser. Great for sketching your schedule, drafting estimates during a meeting and as a regular calendar that you can stick on your wall.
+
+The app is inspired in David Seah's "Compact Calendar":http://davidseah.com/compact-calendar. I've been using the Compact Calendar for some time now and I've found it to be a very practical and fun tool. However, David's calendar is year-long, and I usually only need to mark dates that are three or maybe four months into the future at most. Also, sometimes I need to mark dates in the next year. So, out of necessity, I decided to put together this little tool. "Try it out":http://leandro.me/Calendator.
+
+h2. Stack
+
+Calendator is a pure client side application. The interface is built using Twitter's "Bootstrap":http://twitter.github.com/bootstrap toolkit, the CSS is preprocessed using "Less":http://lesscss.org, handling of dates is done with "Date.js":http://www.datejs.com and everything is tied together with "jQuery":http://jquery.com. Source code available on "GitHub":https://github.com/leandrodotme/Calendator.
