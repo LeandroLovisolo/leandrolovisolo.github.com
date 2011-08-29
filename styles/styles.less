@@ -1,5 +1,5 @@
-@import "/styles/skeleton.css";
 @import "/styles/base.css";
+@import "/styles/960.css";
 @import "/styles/bootstrap.less";
 
 a, a:visited {
@@ -7,13 +7,14 @@ a, a:visited {
 	&:hover { color: black; }
 }
 
-div.main { padding-top: 60px; }
+div.main { padding-top: 50px; }
 
 div.header {
 	position: fixed;
-	width: 160px;
+	width: 170px;
 	text-align: right;
 	div.name {
+		margin-bottom: 20px;
 		font-weight: bold;
 		a {
 			color: #181818;
@@ -27,5 +28,5 @@ div.header {
 }
 
 div.index {
-	span.date { font-family: "Monaco", Courier New, monospace; font-size: 80%; color: gray; }
+	span.date { font-family: Monaco, "Courier New", monospace; font-size: 80%; color: gray; }
 }
