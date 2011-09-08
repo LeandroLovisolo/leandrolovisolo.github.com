@@ -11,4 +11,4 @@ The app is inspired in David Seah's "Compact Calendar":http://davidseah.com/comp
 
 h2. Stack
 
-Calendator is a pure client side application. The interface is built using Twitter's "Bootstrap":http://twitter.github.com/bootstrap toolkit, the CSS is preprocessed using "Less":http://lesscss.org, handling of dates is done with "Date.js":http://www.datejs.com and everything is tied together with "jQuery":http://jquery.com. Source code available on "GitHub":https://github.com/leandrodotme/Calendator.
+Calendator is a pure client side application. The interface is built using Twitter's "Bootstrap":http://twitter.github.com/bootstrap toolkit, the CSS is preprocessed using "Less":http://lesscss.org, handling of dates is done with "Date.js":http://www.datejs.com and everything is tied together with "jQuery":http://jquery.com. Source code available on "GitHub":https://github.com/LeandroLovisolo/Calendator.
