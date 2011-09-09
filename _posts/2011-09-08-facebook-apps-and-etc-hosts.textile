@@ -27,8 +27,10 @@ The main problem with this is that you end up editing the hosts file all the tim
 
 h2. A better approach
 
-A less painful way to fix this is to define an alias just for a subdomain, for example local.mywebapp.com, and use that instead of localhost when you're developing locally:
+A less painful way to fix this is to define an alias just for a subdomain, e.g. local.mywebapp.com, and use that alias instead of localhost when you're developing locally:
 
 <pre>127.0.0.1	local.mywebapp.com</pre>
+
+This way, you can test your app locally using http://local.mywebapp.com:8080 and forget about editing the hosts file ever again.
 
 This works because the JavaScript SDK sees that all your URLs belong to the application domain.
