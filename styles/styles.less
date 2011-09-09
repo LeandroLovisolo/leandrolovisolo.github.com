@@ -7,6 +7,12 @@ a, a:visited {
 	&:hover { color: black; }
 }
 
+pre { margin-bottom: 20px; padding: 20px; border: 1px solid gray; background-color: lightgrey; #font > .monospace(normal, 13px); }
+blockquote {
+	padding: 0 20px; border-left-width: 4px;
+	p { font-size: 14px !important; line-height: 21px; }
+}
+
 div.main { padding-top: 50px; }
 
 div.header {
@@ -35,5 +41,11 @@ div.index {
 }
 
 div.post {
-	img { float: right; width: 50%; margin: 0 0 20px 20px; padding: 5px; border: 1px solid lightgrey; }
+	img { 
+		display: block;
+		margin: 20px auto;
+		&.right { 
+			display: inline; float: right; width: 50%; margin: 0 0 20px 20px; padding: 5px; border: 1px solid lightgrey;
+		}
+	}
 }
