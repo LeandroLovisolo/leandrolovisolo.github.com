@@ -17,7 +17,7 @@ bq. API Error Code: 191
 API Error Description: The specified URL is not owned by the application.
 Error Message: redirect_uri is not owned by the application.
 
-h2. How to fix it
+h2. The usual workaround
 
 Assuming that your application's domain is mywebapp.com, your first attempt at circumventing this problem would probably be to add the following line to your /etc/hosts file and comment it out when you're done testing your app locally:
 
