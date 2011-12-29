@@ -45,13 +45,16 @@ div.header {
 }
 
 div.index {
-	ul.posts {
-		span.date { font-family: Monaco, "Courier New", monospace; font-size: 80%; color: gray }
-		li { margin-bottom: 0; }
+	h1 a {
+		color: #181818;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 }
 
-div.post {
+div.index, div.post {
 	img { 
 		display: block;
 		margin: 20px auto;

@@ -5,39 +5,28 @@ title: Leandro Lovisolo
 
 <div class="index">
 	<p>
-		I'm Leandro Lovisolo, a software developer and entrepreneur in Buenos Aires, Argentina.
+		I'm Leandro Lovisolo, a software developer and entrepreneur in Buenos Aires, Argentina. 
+		<br/>
+		You can read more about me <a href="/about">here</a>.
 	</p>
 
-	<p>
-		Since 2011, I've been working on <a href="http://customica.com">Custómica</a>, an online t-shirt store for the Argentinian market where all the designs are user-contributed and anyone can design their own t-shirt.
-	</p>
+	{% for post in site.posts %}
+		<hr/>
+
+		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+
+		<p class="subheader">
+			{{ post.date | date: "%B %e, %Y" }}
+		</p>
+
+		<div class="post">
+			{{ post.content }}
+		</div>
+	{% endfor %}
+
+	<hr/>
 
 	<p>
-		In the past, I've worked at the local startup <a href="http://livra.com">Livra.com</a>, an online social shopping community, where I helped build their website and awesome community.
-	</p>
-
-	<p>
-		You can follow me on <a href="http://twitter.com/LeandroLovisolo">Twitter</a>, browse my open source projects at <a href="http://github.com/LeandroLovisolo">GitHub</a> and see my profile on <a href="http://www.linkedin.com/pub/leandro-lovisolo/6/101/480">LinkedIn</a>. Write me at <a href="mailto:hi@leandro.me">hi@leandro.me</a>.
-	</p>
-
-	<h4>Blog Posts</h4>
-
-	<ul class="posts">
-		{% for post in site.posts %}
-			<li><span class="date">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-
-	<h4>Projects</h4>
-
-	<ul>
-		<li><a href="http://leandro.me/Calendator">Calendator</a>: Generate printable calendars right from your browser.</li>
-		<li><a href="https://github.com/LeandroLovisolo/LPTMonitor.NET">LPTMonitor.NET</a>: Parallel port input/output monitor for Windows.</li>
-	</ul>
-
-	<h4>About this blog</h4>
-
-	<p>
-		This blog is built with <a href="http://jekyllrb.com">Jekyll</a> and hosted on <a href="http://github.com">GitHub</a>. The source code for this blog is available <a href="http://github.com/LeandroLovisolo/leandrolovisolo.github.com">here</a>. You're welcome to fork it or clone it to create your own blog.
+		You should follow me on Twitter <a href="http://twitter.com/LeandroLovisolo">here</a>.
 	</p>
 </div>
