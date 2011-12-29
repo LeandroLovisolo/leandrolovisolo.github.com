@@ -10,16 +10,13 @@ title: Leandro Lovisolo
 	</p>
 
 	{% for post in site.posts %}
-		<hr/>
-
-		<small class="date">{{ post.date | date: "%B %e, %Y" }}</small>
-		<h1>
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</h1>
-
-		<div class="post-body">
+		<article>
+			<header>
+				<time>{{ post.date | date: "%B %e, %Y" }}</time>
+				<h1>{{ post.title }}</h1>
+			</header>
 			{{ post.content }}
-		</div>
+		</article>
 	{% endfor %}
 
 	<hr/>

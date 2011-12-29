@@ -7,14 +7,13 @@ layout: default
 	You can read more about me <a href="/about">here</a>.
 </p>
 
-<hr/>
-
-<small class="date">{{ page.date | date: "%B %e, %Y" }}</small>
-<h1>{{ page.title }}</h1>
-
-<div class="post-body">
+<article>
+	<header>
+		<time>{{ page.date | date: "%B %e, %Y" }}</time>
+		<h1>{{ page.title }}</h1>
+	</header>
 	{{ content }}
-</div>
+</article>
 
 <p>
 	You should follow me on Twitter <a href="http://twitter.com/LeandroLovisolo">here</a>.
