@@ -9,7 +9,7 @@ You can get the source on GitHub "here":https://github.com/LeandroLovisolo/Custo
 
 I started working on Custómica in January 2010 and launched in June 2011.
 
-To be honest, the project was already dead in my mind before even launching. I've learned a lot about tech startups and entrepreneurship since I started working on Custómica, particularly about lean startups and how to reduce waste. I realized about fundamental flaws in my core idea only after investing a huge ammount of time building the product, and it was clear to me that this project had little chance of succeeding.
+I've learned a lot about tech startups and entrepreneurship since I started working on Custómica, particularly about lean startups and reducing waste. I realized about fundamental flaws in my core idea only after investing a huge ammount of time building the product, and eventually it was clear to me that this project had little chance of succeeding.
 
 Still, I decided to carry on and launch the application. Even if the business failed, I figured it would be a great learning experience. Plus, I could get a return on the time I'd invested so far in the form of a nice addition to my GitHub profile if I finished the thing and put the code online instead of letting it rot on my hard drive.
 
