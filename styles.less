@@ -5,13 +5,12 @@
 /* ---------------------------------- */
 
 @basefont: 14px;
-
 @linkColor: @red;
+@headerColor: #181818;
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	color: #181818;
-
+	color: @headerColor;
 }
 
 h1 {
@@ -20,6 +19,8 @@ h1 {
 }
 
 p { margin-bottom: @baseline; }
+
+li { color: @grayDark; }
 
 hr {
 	margin: @baseline 0 @baseline - 2;
@@ -37,7 +38,7 @@ div.header {
 		margin-bottom: 30px;
 		font-weight: bold;
 		a {
-			color: #181818;
+			color: @headerColor;
 			text-decoration: none;
 			img {
 				width: 100%; margin-bottom: 30px;
@@ -63,7 +64,7 @@ div.header {
 
 div.index-page {
 	h1 a {
-		color: #181818;
+		color: @headerColor;
 		text-decoration: none;
 		&:hover {
 			text-decoration: underline;
@@ -104,7 +105,14 @@ article {
 		margin: 20px auto;
 		max-width: 100%;
 		&.right { 
-			display: inline; float: right; width: 50%; margin: 0 0 20px 20px; padding: 5px; border: 1px solid lightgrey;
+			display: inline;
+			float: right;
+			width: 50%;
+			margin: 0 0 20px 20px;
+			/*
+			padding: 5px;
+			*/
+			
 		}
 	}	
 }
