@@ -1,0 +1,50 @@
+---
+layout: post
+title: "I'm open sourcing my defunct startup, Customica.com"
+---
+
+"Custómica":http://customica.com was an an online t-shirt store for the Argentinian market where all the designs were user-contributed and anyone could design their own t-shirt.
+
+You can get the source on GitHub "here":https://github.com/LeandroLovisolo/Customica.
+
+I started working on Custómica in January 2010 and launched in June 2011.
+
+To be honest, the project was already dead in my mind before even launching. I've learned a lot about tech startups and entrepreneurship since I started working on Custómica, particularly about lean startups and how to reduce waste. I realized about fundamental flaws in my core idea only after investing a huge ammount of time building the product, and it was clear to me that this project had little chance of succeeding.
+
+Still, I decided to carry on and launch the application. Even if the business failed, I figured it would be a great learning experience. Plus, I could get a return on the time I'd invested so far in the form of a nice addition to my GitHub profile if I finished the thing and put the code online instead of letting it rot on my hard drive.
+
+I launched Custómica in June 2011 at a meetup of the "Lean Startups Buenos Aires":http://www.facebook.com/groups/leanstartupbsas/ group and got a bunch of helpful feedback and constructive criticism. 
+
+Six months later, Custómica still hadn't gained any significant traction and had produced zero sales. Time to call it a day.
+
+The application is "still running":http://customica.com in read-only mode, and will continue to do so indefinitely.
+
+h2. The idea
+
+Custómica as an idea was nothing new; there are lots of custom-designed t-shirt stores out there (most notably "Zazzle":http://zazzle.com, "CafePress":http://cafepress.com and "Spreadshirt":http://spreadshirt.com.) The big difference from its American and European counterparts was its social integration.
+
+Users would sign in using their Facebook accounts, and the application would post to their Facebook walls any new t-shirts they designed. This would hopefully attract some of their Facebook friends to the site, generating sales and/or new t-shirt designs.
+
+h2. What went wrong
+
+*I never validated my hypothesis*. I should've built an MVP and tested the idea before investing so much time building the product. Turns out, only a very small fraction of my users (less than 1%) actually designed new t-shirts. I relied solely on Facebook wall posts as my customer acquisition channel, so traffic growth was severely limited by the content-producer-to-consumer ratio.
+
+*I attacked the riskiest parts of the project last*. For instance, I assumed I could print designs on t-shrits of any color, only to later find out that the only technically and economically feasible printing process in my reach was limited to plain white t-shirts.
+
+*Crowded niche*. A lot of new players have emerged in the alternative/custom-designed t-shirt scene in Argentina since I've started working on Custómica. Most of them use Facebook Pages as their primary means of promotion and offer a big selection of professionally designed t-shirts.
+
+*Couldn't compete on neither price nor quality*. Professionally designed, batch produced t-shirts are usually printed using higher quality techniques that are only economically viable in large quantities, such as screen printing. Custómica was limited to inkjet transfer printing, which not only results in a poorer quality product, but is also limited to white t-shirts. In addition to that, production was outsourced, which translated into little margin for profit.
+
+h2. Wrapping it up
+
+Seen through the lens of the lean startup method, Custómica was the perfect example of what not to do. My biggest mistakes were not testing my market assumptions and tackling the trickiest parts of my plan last.
+
+My advice to my future self (and anyone reading this) is stick to "the":http://runningleanhq.com "books":http://theleanstartup.com and talk to people. There are many places where you can ask for advice and bounce ideas off people who've been there and done it, my favorite ones being "Hacker News":news.ycombinator.com and the "Lean Startup Circle":https://groups.google.com/group/lean-startup-circle. I should do that more often.
+
+h2. About the code
+
+Custómica is a "Play":http://playframework.com application written in Java, running on "Heroku":http://heroku.com. The t-shirt designer component is built with Adobe Flex. I'm releasing the code under the MIT license. Feel free to "get a copy":https://github.com/LeandroLovisolo/Customica and do whatever you want with it.
+
+h2. Thanks
+
+I'd like to thank all my friends who've encouraged me to pursue this project. It was a terrific learning experience and I have improved immensely both as a developer and as an aspiring entrepreneur because if it. 
