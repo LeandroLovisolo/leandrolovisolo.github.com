@@ -4,26 +4,87 @@ title: Leandro Lovisolo
 ---
 
 <div class="index-page">
+	<div class="hero-unit">
+		<h1>Hey there!</h1>
+		<br>
+		<p>
+		I'm Leandro Lovisolo, a computer science student at <a href="http://www.dc.uba.ar">Universidad de Buenos Aires</a>.
+		</p>
+
+		<p>
+			Here are some projects I'm working on.
+		</p>
+	</div>
+
+	<br/>
+
+	<h1><a href="http://leandro.me/MyDataStructures">MyDataStructures</a></h1>
+
 	<p>
-		I'm Leandro Lovisolo, a computer science student at University of Buenos Aires, Argentina. <br/>
-		You can read more about me <a href="/about">here</a>.
+		<img src="/images/mydatastructures.png" class="mydatastructures"/>
 	</p>
 
-	{% for post in site.posts %}
-		<article>
-			<header>
-				<time>{{ post.date | date: "%B %e, %Y" }}</time>
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-			</header>
-			{{ post.content }}
-		</article>
-	{% endfor %}
+	<p>
+		<a href="http://leandro.me/MyDataStructures">MyDataStructures</a> is a collection of basic data structures
+		written in the C++ programming language, and a web interface that
+		allows you to visualize them and interact with them.
+	</p>
 
+	<p>
+		The C++ data structures are compiled into JavaScript using
+		<a href="http://kripken.github.io/emscripten-site/">Emscripten</a> and
+		executed in the browser.
+	</p>
+
+	<p>
+		The web interface is built using
+		<a href="http://emberjs.com/">Ember</a> and
+		<a href="http://getbootstrap.com/">Bootstrap</a>.
+	</p>
+
+	<p>
+		You can check out the source code on GitHub
+		<a href="https://github.com/LeandroLovisolo/MyDataStructures">here</a>.
+	</p>
+
+	<br/>
 	<hr/>
+	<br/>
 
-	<!--
+	<h1><a href="https://github.com/LeandroLovisolo/CrackingTheCodingInterview">CrackingTheCodingInterview</a></h1>
+
 	<p>
-		You should follow me on Twitter <a href="http://twitter.com/LeandroLovisolo">here</a>.
+		<a href="https://github.com/LeandroLovisolo/CrackingTheCodingInterview">My solutions</a> to various problems from the book Cracking the Coding Interview, by Gayle Laakmann McDowell.
 	</p>
-	-->
+
+	<p>
+		This repository also contains solutions to some problems from other sources.
+	</p>
+
+	<br/>
+	<hr/>
+	<br/>
+
+	<h2>Other projects</h2>
+
+	<dl>
+		<dt><a href="https://github.com/LeandroLovisolo/Customica">Custómica</a>:</dt>
+		<dd>Source code for <a href="http://customica.com">customica.com</a>, my <a href="http://leandro.me/posts/i-am-open-sourcing-my-defunct-startup-customica/">defunct startup</a>.</dd>
+
+		<dt><a href="http://leandro.me/Calendator">Calendator</a>:</dt>
+		<dd>Generate printable calendars right from your browser.</dd>
+
+		<dt><a href="https://github.com/LeandroLovisolo/LPTMonitor.NET">LPTMonitor.NET</a>:</dt>
+		<dd>Parallel port input/output monitor for Windows.</dd>
+
+		<dt><a href="https://github.com/LeandroLovisolo/leandrolovisolo.github.com">leandro.me</a>:</dt>
+		<dd>The blog you're currently reading.</dd>
+	</dl>
+
+	<br/>
+	<hr/>
+	<p>
+		Old blog posts available <a href="/posts">here</a>.
+	</p>
+
 </div>
