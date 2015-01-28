@@ -16,6 +16,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif;
 	font-size: 36px;
+	a {
+		color: @headerColor;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 p { margin-bottom: @baseline; }
@@ -63,13 +70,16 @@ div.header {
 /* -------------------------------- */
 
 div.index-page {
-	h1 a {
-		color: @headerColor;
-		text-decoration: none;
-		&:hover {
-			text-decoration: underline;
-		}
+	img.mydatastructures {
+		width: 100%;
 	}
+}
+
+/* -------------------------------- */
+/* ---------- posts.html ---------- */
+/* -------------------------------- */
+
+div.posts-page {
 }
 
 /* -------------------------------- */
@@ -77,12 +87,6 @@ div.index-page {
 /* -------------------------------- */
 
 div.about-page {
-	dt {
-		float: left;
-		width: 130px;
-		font-weight: normal;
-	}
-	dd { margin-left: 150px; }
 }
 
 /* ---------------------------------------- */
@@ -97,7 +101,7 @@ article {
 			font-weight: bold;
 			font-size: 11px;
 			line-height: @baseline;
-			text-transform: uppercase;			
+			text-transform: uppercase;
 		}
 	}
 	img { 
@@ -116,3 +120,11 @@ article {
 		}
 	}	
 }
+
+@dt-width: 150px;
+dt {
+	float: left;
+	width: @dt-width;
+	font-weight: normal;
+}
+dd { margin-left: @dt-width + 20px; }
